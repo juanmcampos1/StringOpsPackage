@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSets xmlns:xi="http://www.w3.org/2001/XInclude" xsi:noNamespaceSchemaLocation="file:///C:/Sonic/SDM7.0.6/SDM-Core/schemas/Tuning.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ContainerParameters id="ctESBParams">
+    <Environment>
+      <JvmArguments>-Xms128m -Xmx512m -XX:MaxPermSize=256m</JvmArguments>
+      <JavaSystemProperties>
+        <Property>
+          <Key>file.encoding</Key>
+          <Value>UTF-8</Value>
+        </Property>
+        <Property>
+          <Key>console.encoding</Key>
+          <Value>UTF-8</Value>
+        </Property>
+      </JavaSystemProperties>
+    </Environment>
+  </ContainerParameters>
+  <xi:include href="modelincludes/ctESB_inc_tuning.xml"/>
+</ParameterSets>

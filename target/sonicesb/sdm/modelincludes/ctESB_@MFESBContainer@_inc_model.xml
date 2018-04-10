@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESBContainer>
+  <LogicalHosts>
+    <LogicalHost>esbhost</LogicalHost>
+  </LogicalHosts>
+  <Id>ctESB</Id>
+  <ParameterSet>ctESB_ContainerParameter</ParameterSet>
+  <TargetContainer>@MFESBContainer@</TargetContainer>
+  <BootContainer>false</BootContainer>
+  <Services>
+    <Service>
+      <Id>StringOpsServiceInstance</Id>
+      <ListenerCount>5</ListenerCount>
+      <StartupPriorityLevel>0</StartupPriorityLevel>
+      <ConcurrentCalls>0</ConcurrentCalls>
+    </Service>
+  </Services>
+  <Processes/>
+</ESBContainer>

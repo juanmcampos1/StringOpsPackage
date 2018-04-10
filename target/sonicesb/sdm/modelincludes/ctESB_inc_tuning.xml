@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESBContainerParameters id="ctESB_ContainerParameter">
+  <JmsDefaultConnection>jms_defaultConnection</JmsDefaultConnection>
+  <HttpDefaultConnection>http_defaultConnection</HttpDefaultConnection>
+  <UseIntraContainer>true</UseIntraContainer>
+  <ActionalConfig>
+    <InterceptorEnabled>true</InterceptorEnabled>
+    <PayloadReportingEnabled>true</PayloadReportingEnabled>
+  </ActionalConfig>
+</ESBContainerParameters>

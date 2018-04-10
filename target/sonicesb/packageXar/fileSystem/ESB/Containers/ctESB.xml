@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xq:XQ_CONTAINER xmlns:xq="http://www.sonicsw.com/sonicxq" name="ctESB"
+    useIntraContainerMessaging="true" RoutingHttpConnection="http_defaultConnection"
+    BusConnection="jms_defaultConnection" useForLookingGlass="true" enablePayloadCapture="true">
+  <xq:services>
+    <xq:serviceApplication name="StringOpsServiceInstance" Instances="5" service_ref="StringOpsServiceInstance"
+        startupPriorityLevel="0" ConcurrentCalls="0"/>
+  </xq:services>
+</xq:XQ_CONTAINER>
