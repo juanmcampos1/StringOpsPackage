@@ -5,5 +5,7 @@
   <xq:services>
     <xq:serviceApplication name="StringOpsServiceInstance" Instances="5" service_ref="StringOpsServiceInstance"
         startupPriorityLevel="0" ConcurrentCalls="0"/>
+    <xq:serviceApplication name="strSplit" Instances="5" service_ref="strSplit" startupPriorityLevel="0"
+        ConcurrentCalls="0"/>
   </xq:services>
 </xq:XQ_CONTAINER>

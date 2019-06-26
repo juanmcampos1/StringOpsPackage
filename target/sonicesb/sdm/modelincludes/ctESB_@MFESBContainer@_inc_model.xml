@@ -15,5 +15,12 @@
       <ConcurrentCalls>0</ConcurrentCalls>
     </Service>
   </Services>
-  <Processes/>
+  <Processes>
+    <Process>
+      <Id>strSplit</Id>
+      <ListenerCount>5</ListenerCount>
+      <StartupPriorityLevel>0</StartupPriorityLevel>
+      <ConcurrentCalls>0</ConcurrentCalls>
+    </Process>
+  </Processes>
 </ESBContainer>

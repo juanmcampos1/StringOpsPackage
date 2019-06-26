@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TailoringMaps xmlns="http://www.sonicsw.com/sonicxq" version="TailorMap8.0">
   <ProcessMaps>
-    <ProcessMap QoS="BEST_EFFORT" name="strSplit" trackingLevel="0" timeToLive="0"/>
+    <ProcessMap QoS="BEST_EFFORT" name="strSplit" trackingLevel="0" timeToLive="0" entry_ref="strSplit.Entry"/>
   </ProcessMaps>
   <ServiceMaps>
     <ServiceMap typeRef="StringOpsService" name="StringOpsServiceInstance" entry_ref="StringOpsServiceInstance.Entry">
