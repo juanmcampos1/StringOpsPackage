@@ -54,11 +54,11 @@
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_CA_CERTIFICATES_DIR@</Id>
-      <Value>C:\Aurea\Sonic17SP4\MQ10.0/certs/CA</Value>
+      <Value>C:\Aurea\Sonic\MQ10.0/certs/CA</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_CERTIFICATE_CHAIN@</Id>
-      <Value>C:\Aurea\Sonic17SP4\MQ10.0/certs/client.p7c</Value>
+      <Value>C:\Aurea\Sonic\MQ10.0/certs/client.p7c</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_CERTIFICATE_CHAIN_FORM@</Id>
@@ -106,7 +106,7 @@
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_PRIVATE_KEY@</Id>
-      <Value>C:\Aurea\Sonic17SP4\MQ10.0/certs/clientKey.pkcs8</Value>
+      <Value>C:\Aurea\Sonic\MQ10.0/certs/clientKey.pkcs8</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_PRIVATE_KEY_PASSWORD@</Id>
@@ -122,7 +122,7 @@
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.url@</Id>
-      <Value>tcp://WIN-5N4R5OBAO6N:7406</Value>
+      <Value>tcp://Demo-PC:2506</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.user@</Id>
@@ -130,11 +130,11 @@
     </Parameter>
     <Parameter>
       <Id>@svc.StringOpsServiceInstance.com.sonicsw.xq.service.executor.POJOExecutor.delegate@</Id>
-      <Value></Value>
+      <Value>com.aurea.cx.messenger.example.StringOpsService.StringOpsService</Value>
     </Parameter>
     <Parameter>
       <Id>@svc.StringOpsServiceInstance.verbose@</Id>
-      <Value></Value>
+      <Value>false</Value>
     </Parameter>
   </Parameters>
 </Environment>
