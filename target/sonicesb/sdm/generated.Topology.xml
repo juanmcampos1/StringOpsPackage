@@ -54,11 +54,11 @@
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_CA_CERTIFICATES_DIR@</Id>
-      <Value>C:\CXMessenger\Sonic\MQ10.0/certs/CA</Value>
+      <Value>C:\Aurea\Sonic\MQ10.0/certs/CA</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_CERTIFICATE_CHAIN@</Id>
-      <Value>C:\CXMessenger\Sonic\MQ10.0/certs/client.p7c</Value>
+      <Value>C:\Aurea\Sonic\MQ10.0/certs/client.p7c</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_CERTIFICATE_CHAIN_FORM@</Id>
@@ -106,7 +106,7 @@
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_PRIVATE_KEY@</Id>
-      <Value>C:\CXMessenger\Sonic\MQ10.0/certs/clientKey.pkcs8</Value>
+      <Value>C:\Aurea\Sonic\MQ10.0/certs/clientKey.pkcs8</Value>
     </Parameter>
     <Parameter>
       <Id>@con.jms_defaultConnection.SSL_PRIVATE_KEY_PASSWORD@</Id>
