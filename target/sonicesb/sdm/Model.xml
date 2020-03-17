@@ -58,23 +58,4 @@
     <Id>StringOpsService-1.1-SNAPSHOT.xar</Id>
   </ESBArchive>
   <xi:include href="modelincludes/ctESB_@MFESBContainer@_inc_model.xml"/>
-  <ESBArchive>
-    <LogicalHosts>
-      <LogicalHost>XARHost</LogicalHost>
-    </LogicalHosts>
-    <Id>StringOpsPackage-1.0.0-SNAPSHOT.xar</Id>
-  </ESBArchive>
-  <ESBArchive>
-    <LogicalHosts>
-      <LogicalHost>XARHost</LogicalHost>
-    </LogicalHosts>
-    <Id>StringOpsProcess-1.0.0-SNAPSHOT.xar</Id>
-  </ESBArchive>
-  <ESBArchive>
-    <LogicalHosts>
-      <LogicalHost>XARHost</LogicalHost>
-    </LogicalHosts>
-    <Id>StringOpsService-1.1-SNAPSHOT.xar</Id>
-  </ESBArchive>
-  <xi:include href="modelincludes/ctESB_@MFESBContainer@_inc_model.xml"/>
 </Model>
